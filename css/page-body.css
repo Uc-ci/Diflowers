@@ -1,0 +1,29 @@
+.page-html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100%; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
+
+.page-body {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 14px;
+  min-width: 320px;
+  height: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0; }
+
+.page-body__container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%; }
