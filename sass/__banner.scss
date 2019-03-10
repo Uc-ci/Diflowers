@@ -76,6 +76,13 @@
 	transform: translateY(-15px);
 }
 
+.sad {
+		border-radius: 50%;
+		background-color: #f2e7fb;
+		width: 64px;
+		height: 52px;
+}
+
 .offers__description {
 	margin: 10px 30px 10px 94px;
 }
@@ -95,6 +102,11 @@
 	font-weight: 700;
 	line-height: 2.4;
 	text-transform: uppercase;
+
+	&:after {
+		content: '>';
+		color: $col_purple;
+	}
 }
 
 

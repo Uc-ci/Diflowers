@@ -76,6 +76,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .page-header__pictures-network {
   display: block;
+  max-width: 172px;
   height: auto;
   padding-top: 8px; }
 
@@ -84,7 +85,7 @@ h1, h2, h3, h4, h5, h6, p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 215px; }
+  margin-left: 210px; }
 
 .page-header__information-item {
   padding-right: 65px; }
@@ -191,6 +192,12 @@ h1, h2, h3, h4, h5, h6, p {
   .page-header__navigation-link:hover, .page-header__navigation-link:focus {
     color: #a066d5; }
 
+.shape-codepen {
+  display: inline-block;
+  fill: red;
+  width: 100px;
+  height: 100px; }
+
 .banner {
   background-color: #f5f5f5; }
 
@@ -252,6 +259,13 @@ h1, h2, h3, h4, h5, h6, p {
       -ms-transform: translateY(-15px);
           transform: translateY(-15px); }
 
+.sad {
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background-color: #f2e7fb;
+  width: 64px;
+  height: 52px; }
+
 .offers__description {
   margin: 10px 30px 10px 94px; }
 
@@ -268,3 +282,6 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: 700;
   line-height: 2.4;
   text-transform: uppercase; }
+  .offers__link:after {
+    content: '>';
+    color: #a066d5; }

@@ -28,6 +28,7 @@
 
 .page-header__pictures-network {
 	display: block;
+	max-width: 172px;
 	height: auto;
 
 	padding-top: 8px;
@@ -35,7 +36,7 @@
 
 .page-header__information-list {
 	display: flex;
-	margin-left: 215px;
+	margin-left: 210px;
 }
 
 .page-header__information-item {
@@ -160,5 +161,12 @@
 	&:focus {
 		color: $col-purple;
 	}
+}
+
+.shape-codepen {
+	display: inline-block;
+	fill: red;
+	width: 100px;
+	height: 100px;
 }
 
