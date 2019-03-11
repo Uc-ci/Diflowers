@@ -58,6 +58,7 @@
 
 	background-color: $col-white;
 	margin-left: 1px;
+	margin-bottom: 1px;
 	
 	&:first-child {
 		margin-left: 0;
@@ -101,7 +102,6 @@
 	color: $col-grey;
 	font-size: 13px;
 	font-weight: 700;
-	line-height: 1.8;
 }
 
 .offers__link {
