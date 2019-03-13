@@ -1,0 +1,12 @@
+@font-face {
+	font-family: "AbrilTitlingSBit";
+    src: 
+    url("../fonts/AbrilTitlingWSemiBoldIt/AbrilTitlingW01SemiBoldIt.eot"),
+    url("../fonts/AbrilTitlingWSemiBoldIt/AbrilTitlingW01SemiBoldIt.eot?#iefix"),
+    url("../fonts/AbrilTitlingWSemiBoldIt/AbrilTitlingW01SemiBoldIt.woff2"),
+    url("../fonts/AbrilTitlingWSemiBoldIt/AbrilTitlingW01SemiBoldIt.woff"),
+    url("../fonts/AbrilTitlingWSemiBoldIt/AbrilTitlingW01SemiBoldIt.ttf");
+
+	font-style: italic;
+	font-weight: 600;
+}

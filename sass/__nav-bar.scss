@@ -1,0 +1,175 @@
+.nav-bar {
+	background-color: #f9f9f9;
+}
+
+.nav-bar__wrapper {
+	display: flex;
+	padding: 60px 0 59px 0;
+
+	margin-left: -20px;
+}
+
+.nav-bar__link {
+	margin-left: 20px;
+}
+
+.nav-bar__bouquet {
+	position: relative;
+
+	width: 456px;
+	height: 261px;
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.06);
+	border-radius: 4px;
+	background-color: $col-white;
+}
+
+.nav-bar__title {
+	display: block;
+
+	color: $col-grey;
+	font-size: 18px;
+	font-weight: 500;
+
+	padding: 29px 0px 0px 30px;
+}
+
+.nav-bar__price {
+	display: block;
+	color: $col-purple;
+	font-size: 14px;
+	font-weight: 800;
+
+	padding: 7px 0 0 30px;
+}
+
+.nav-bar__pictures {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	
+	margin-right: 24px;
+	line-height: 0;
+	z-index: 1;
+
+	&:before {
+		content: '';
+		position: absolute;
+		width: 245px;
+		height: 235px;
+		background-color: #f4ecfb;
+		clip-path: circle(50% at 50% 60%);
+		z-index: -1;
+
+		bottom: 0;
+		right: 0;
+		
+	}
+}
+
+.nav-bar__bear {
+	position: relative;
+
+	width: 260px;
+	height: 260px;
+}
+
+.nav-bar__teddy {
+	position: relative;
+	z-index: 1;
+
+	display: flex;
+	justify-content: center;
+	margin-top: 14px;
+
+	&:before {
+		content: '';
+		position: absolute;
+		width: 211px;
+		height: 157px;
+		background-color: #fae9ee;
+		clip-path: circle(50% at 50% 60%);
+
+		bottom: 0;
+		right: 0;
+		margin-right: 30px;
+		transform: translateY(8px);
+
+		z-index: -1;
+	}
+}
+
+.nav-bar__flowers {
+	position: relative;
+
+	width: 345px;
+	height: 120px;
+}
+
+.nav-bar__flowers--wrapper {
+	display: flex;
+	flex-direction: column;
+
+	justify-content: space-between;
+}
+
+.nav_bar__floret {
+	position: absolute;
+
+	
+	right: 0;
+	bottom: 0;
+	margin-right: 34px;
+
+	line-height: 0;
+	z-index: 1;
+
+	&:before {
+		content: '';
+		position: absolute;
+		
+		width: 141px;
+		height: 98px;
+		background-color: #ffd3d5;
+		clip-path: circle(50% at 50% 60%);
+
+		bottom: 0;
+		right: 0;
+		transform: translateX(10%);
+
+		z-index: -1;
+	}
+
+	&:last-child:before {
+		content: '';
+		background-color: #f4ecfb;
+	}
+}
+
+.nav-bar__item-1 {
+	display: block;
+	width: 238px;
+	height: 229px;
+}
+
+.nav-bar__item-2 {
+	display: block;
+	width: 150px;
+	height: 166px;
+}
+
+.nav-bar__item-3 {
+	display: block;
+	width: 146px;
+	height: 111px;
+}
+
+.nav-bar__item-4 {
+	display: block;
+	width: 112px;
+	height: 113px;
+}
+
+
+
+
+

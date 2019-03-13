@@ -1,0 +1,195 @@
+.stock__list {
+	margin-top: 60px;
+	margin-bottom: 25px;
+}
+
+.stock__item1 {
+	width: 320px;
+	height: 340px;
+	border-radius: 4px;
+	background-color: #ffd3e0;
+	margin: 0 15px;
+}
+
+.stock__item2 {
+	position: relative;
+
+	width: 320px;
+	height: 340px;
+	border-radius: 4px;
+	background-color: #d0abf1;
+
+	background-image: url('../img/boqket__bg.png');
+	background-repeat: no-repeat;
+	background-position: 65%;
+	background-size: cover;
+	opacity: 0.89;
+
+	margin: 0 15px;
+
+	&:before {
+		content: '';
+		position: absolute;
+
+		width: 100%;
+		height: 318px;
+		background-image: linear-gradient(to top, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0) 100%);
+		opacity: 0.7;
+
+		bottom: 0;
+	}
+}
+
+.stock__item3 {
+	position: relative;	
+
+	width: 320px;
+	height: 340px;
+	border-radius: 4px;
+	background-color: #eeddfd;
+	margin: 0 15px;
+}
+
+.stock__title {
+	display: block;
+	color: #5c5a5f;
+	font-size: 14px;
+	font-weight: 400;
+
+	margin: 60px 0 0 78px;
+
+	line-height: 0;
+}
+
+.stock__price {
+	display: block;
+
+	color: #ff2d72;
+	font-family: 'AbrilTitlingSBit', serif;
+	font-weight: 600;
+	font-size: 48px;
+	font-style: italic;
+
+	margin: 5px 0 0 75px;
+}
+
+.stock__value {
+	color: #ff2d72;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	font-style: normal;
+
+	margin: 2px 0 0 0;
+}
+
+.stock__pictures {
+	margin: 38px 45px 31px 30px;
+}
+
+.stock__image {
+	display: block;
+	max-width: 245px;
+	height: auto;
+}
+
+.stock__head {
+	position: relative;
+
+	display: block;
+
+	color: $col-white;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+
+	text-align: center;
+
+	margin-top: 90px;
+}
+
+.stock__price--white {
+	position: relative;
+
+	left: 0;
+	right: 0;
+
+	margin: 0;
+	color: $col-white;
+	text-align: center;
+
+	margin-top: 5px;
+}
+
+.stock__value--white {
+	position: relative;
+
+	left: 0;
+	right: 0;
+
+	display: block;
+	margin: 0;
+	color: $col-white;
+	text-align: center;
+
+	margin-top: 5px;
+}
+
+.stock__description {
+	position: relative;
+
+	left: 0;
+	right: 0;
+
+	width: 209px;
+	color: $col-white;
+	font-size: 14px;
+	font-weight: 300;
+
+	text-align: center;
+
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+.stock__heading {
+	display: block;
+	width: 106px;
+	color: $col-grey;
+	font-size: 16px;
+	font-weight: 500;
+
+	margin: 35px 0 0 30px;
+}
+
+.stock__limited {
+	display: block;
+	color: #9658cf;
+	font-size: 22px;
+	font-weight: 800;
+
+	margin: 10px 0 0 30px;
+}
+
+.stock__gallery {
+	position: relative;
+
+	margin: 0 0 26px 95px;
+}
+
+.stock__img {
+	display: block;
+	width: 192px;
+	height: auto;
+}
+
+.stock__item {
+	transition: 0.20s;
+	transition-timing-function: ease-in;
+	&:focus {
+		transform: scale(1.1);
+		outline: none;
+	}
+}
+
+

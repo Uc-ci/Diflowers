@@ -79,7 +79,8 @@
 
 .product__name {
 	color: $col-grey;
-	font-family: "Rounded Mplus 1c";
+	font-family: $fonts_stock;
+	font-style: normal;
 	font-size: 13px;
 	font-weight: 500;
 	

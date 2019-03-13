@@ -71,7 +71,8 @@
 		width: 64px;
 		height: 52px;
 		background-color: #f2e7fb;
-		border-radius: 50%;
+		
+		clip-path: circle(50% at 50% 70%);
 
 		left: 0;
 		bottom: 0;
