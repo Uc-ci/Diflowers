@@ -788,15 +788,8 @@ button {
   width: 192px;
   height: auto; }
 
-.stock__item {
-  -webkit-transition: 0.20s;
-  -o-transition: 0.20s;
-  transition: 0.20s;
-  -webkit-transition-timing-function: ease-in;
-       -o-transition-timing-function: ease-in;
-          transition-timing-function: ease-in; }
-  .stock__item:focus {
-    -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-            transform: scale(1.1);
-    outline: none; }
+.slick-slide {
+  margin: 15px; }
+
+.slick-center {
+  margin: 15px; }

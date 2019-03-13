@@ -183,13 +183,11 @@
 	height: auto;
 }
 
-.stock__item {
-	transition: 0.20s;
-	transition-timing-function: ease-in;
-	&:focus {
-		transform: scale(1.1);
-		outline: none;
-	}
+.slick-slide {
+	margin: 15px;
 }
 
+.slick-center {
+	margin: 15px;
+}
 
