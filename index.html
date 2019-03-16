@@ -7,13 +7,14 @@
 	<!-- without X-UA-Compatible meta -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<!-- Font Family -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
 	<link href="css/font-face.css" rel="stylesheet">
 	<!-- CSS -->
 
-	<!-- Slick Plagin  Slider -->
-	<link rel="stylesheet" type="text/css" href="slick/slick.css">
-	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+	<!-- Plagin -->
+	<link rel="stylesheet" type="text/css" href="plugins/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="plugins/slick/slick-theme.css">
 	<!-- Normalsize CSS style -->
 	<link rel="stylesheet" href="css/normalsize.css">
 	<!-- Stylesheet -->
@@ -96,8 +97,8 @@
 		</div>
 		</div>
 
-		<nav class="container page-header__navigation js-header__navigation">
-			<ul class="page-header__navigation-list">
+		<nav class="container page-header__navigation">
+			<ul class="page-header__navigation-list js-navigaition">
 				<li class="page-header__navigation-item">
 					<a href="#" class="page-header__navigation-link">Букеты</a>
 				</li>
@@ -139,9 +140,22 @@
 	<main class="page-main">
 		<section class="banner">
 			<div class="banner__wrapper">
-				<div class="container banner__container">
 
-					<img src="img/flowers_buker.png" class="banner__pictures" alt="Букет Цветов">
+				<div id="scene" class="parallax">
+					<div data-depth="0.04" class="js__parallax">
+						<img src="img/layer1.png" alt="layer" class="parallax__item1">
+					</div>
+
+					<div data-depth="0.06" class="js__parallax">
+						<img src="img/layer2.png" alt="layer" class="parallax__item2">
+					</div>
+
+					<div data-depth="0.19" class="js__parallax">
+						<img src="img/layer3.png" alt="layer" class="parallax__item3">
+					</div>
+				</div>
+
+				<div class="container banner__container">
 					
 					<div class="banner__title">
 						<h1 class="banner__heading">
@@ -210,7 +224,7 @@
 				<div class="product__list">
 					<div class="product__item">
 						<div class="product__figure">
-							<img src="img/flowers__two.jpg" class="product__image" alt="Букет Мисти Баблс">
+							<img src="img/misty-bubbles.jpg" class="product__image" alt="Букет Мисти Баблс">
 
 							<button type="button" class="product__name">
 								Букет “Floral fantasy”
@@ -238,7 +252,7 @@
 
 					<div class="product__item">
 						<div class="product__figure">
-							<img src="img/flowers__two.jpg" class="product__image" alt="Букет Мисти Баблс">
+							<img src="img/buket-sienna.jpg" class="product__image" alt="Букет Сиена">
 
 							<button type="button" class="product__name">
 								Букет “Floral fantasy”
@@ -266,7 +280,7 @@
 
 					<div class="product__item">
 						<div class="product__figure">
-							<img src="img/flowers__two.jpg" class="product__image" alt="Букет Мисти Баблс">
+							<img src="img/buket-magenta.jpg" class="product__image" alt="Букет Магента">
 
 							<button type="button" class="product__name">
 								Букет “Floral fantasy”
@@ -294,7 +308,7 @@
 
 					<div class="product__item">
 						<div class="product__figure">
-							<img src="img/flowers__two.jpg" class="product__image" alt="Букет Мисти Баблс">
+							<img src="img/buket-flare.jpg" class="product__image" alt="Букет Флаэр">
 
 							<button type="button" class="product__name">
 								Букет “Floral fantasy”
@@ -322,7 +336,7 @@
 
 					<div class="product__item">
 						<div class="product__figure">
-							<img src="img/flowers__two.jpg" class="product__image" alt="Букет Мисти Баблс">
+							<img src="img/misty-bubbles.jpg" class="product__image" alt="Букет Мисти Баблс">
 
 							<button type="button" class="product__name">
 								Букет “Floral fantasy”
@@ -350,7 +364,7 @@
 
 					<div class="product__item">
 						<div class="product__figure">
-							<img src="img/flowers__two.jpg" class="product__image" alt="Букет Мисти Баблс">
+							<img src="img/buket-sienna.jpg" class="product__image" alt="Букет Сиена">
 
 							<button type="button" class="product__name">
 								Букет “Floral fantasy”
@@ -378,7 +392,7 @@
 
 					<div class="product__item">
 						<div class="product__figure">
-							<img src="img/flowers__two.jpg" class="product__image" alt="Букет Мисти Баблс">
+							<img src="img/buket-magenta.jpg" class="product__image" alt="Букет Магента">
 
 							<button type="button" class="product__name">
 								Букет “Floral fantasy”
@@ -406,7 +420,7 @@
 
 					<div class="product__item">
 						<div class="product__figure">
-							<img src="img/flowers__two.jpg" class="product__image" alt="Букет Мисти Баблс">
+							<img src="img/buket-flare.jpg" class="product__image" alt="Букет Флаэр">
 
 							<button type="button" class="product__name">
 								Букет “Floral fantasy”
@@ -434,7 +448,7 @@
 
 					<div class="product__item">
 						<div class="product__figure">
-							<img src="img/flowers__two.jpg" class="product__image" alt="Букет Мисти Баблс">
+							<img src="img/misty-bubbles.jpg" class="product__image" alt="Букет Мисти Баблс">
 
 							<button type="button" class="product__name">
 								Букет “Floral fantasy”
@@ -462,7 +476,7 @@
 
 					<div class="product__item">
 						<div class="product__figure">
-							<img src="img/flowers__two.jpg" class="product__image" alt="Букет Мисти Баблс">
+							<img src="img/buket-sienna.jpg" class="product__image" alt="Букет Сиенна">
 
 							<button type="button" class="product__name">
 								Букет “Floral fantasy”
@@ -490,7 +504,7 @@
 
 					<div class="product__item">
 						<div class="product__figure">
-							<img src="img/flowers__two.jpg" class="product__image" alt="Букет Мисти Баблс">
+							<img src="img/buket-magenta.jpg" class="product__image" alt="Букет Магента">
 
 							<button type="button" class="product__name">
 								Букет “Floral fantasy”
@@ -518,7 +532,7 @@
 
 					<div class="product__item">
 						<div class="product__figure">
-							<img src="img/flowers__two.jpg" class="product__image" alt="Букет Мисти Баблс">
+							<img src="img/buket-flare.jpg" class="product__image" alt="Букет Флаэр">
 
 							<button type="button" class="product__name">
 								Букет “Floral fantasy”
@@ -662,26 +676,25 @@
 
 					</div>
 
-					<div class="stock__item stock__item1">
+					<div class="stock__item stock__item2">
 						
-						<span class="stock__title">
-							БЛОК ДЛЯ 
+						<span class="stock__head">
+							букет роз за
 						</span>
 
-						<span class="stock__price">
-							РАБОТЫ
-						<span class="stock__value">
-							СЛАЙДЕРА
-						</span>
+						<span class="stock__price stock__price--white">	2 999 	
 						</span>
 
-						<div class="stock__pictures">
-							<img src="img/gift-with-floral.png" class="stock__image" alt="Подарок и Букет цветов">
-						</div>
+						<span class="stock__value stock__value--white">рублей</span>
+
+						<p class="stock__description">
+							Классический букет из 25 роз,
+							украшенный шелковой лентой
+						</p>
 
 					</div>
 
-						<div class="stock__item stock__item1">
+					<div class="stock__item stock__item1">
 						
 						<span class="stock__title">
 							Подарки от
@@ -699,19 +712,513 @@
 						</div>
 
 					</div>
+				</div>
+					<div class="stock__wrap">
+						<a href="#" class="stock__link">
+							Смотреть все акции
+						</a>
+					</div>
+		</div>
+		</section>
+
+		<section class="advantages">
+			<div class="container advantages__container">
+				<div class="advantages__head">
+					<svg class="advantages__thumb">
+ 						<use xlink:href="img/sprite.svg#icon-flowers"></use>
+					</svg>
+					<h2 class="advantages__title">
+						Наши приемущества
+					</h2>
+				</div>
+
+				<ul class="advantages__list">
+					<li class="advantages__item">
+						<svg class="advantages__sprite">
+ 							<use xlink:href="img/sprite.svg#icon-save"></use>
+						</svg>
+
+						<h3 class="advantages__lead">
+							правило хранения
+						</h3>
+						
+						<p class="advantages__description">
+							Хранение цветов в правильных температурных условиях
+						</p>
+					</li>
+					<li class="advantages__item">
+						<svg class="advantages__sprite">
+ 							<use xlink:href="img/sprite.svg#icon-bouket"></use>
+						</svg>
+
+						<h3 class="advantages__lead">
+							лучшие флористы
+						</h3>
+						
+						<p class="advantages__description">
+							Каждый букет собираются нашими
+							флористами
+						</p>
+					</li>
+					<li class="advantages__item">
+						<svg class="advantages__sprite">
+ 							<use xlink:href="img/sprite.svg#icon-discount"></use>
+						</svg>
+
+						<h3 class="advantages__lead">
+							выгодные предложения
+						</h3>
+						
+						<p class="advantages__description">
+							У нас конкурентные цены и всегда самые выгодные предложения
+						</p>
+					</li>
+					<li class="advantages__item">
+						<svg class="advantages__sprite">
+ 							<use xlink:href="img/sprite.svg#icon-delivery"></use>
+						</svg>
+
+						<h3 class="advantages__lead">
+							доставка
+						</h3>
+						
+						<p class="advantages__description">
+							Максимально быстрая доставка,
+							от 30 минут
+						</p>
+					</li>
+				</ul>
 			</div>
 		</section>
+
+		<section class="mailing">
+			<div class="container mailing__container">
+				<img src="img/beautiful-pink.png" class="mailing__pictures" alt="Ваза с Цветами">
+
+				<div class="mailing__form">
+					<label for="email" class="mailing__label">
+						Подпишись на рассылку
+					</label>
+
+					<p class="mailing__description">
+						Будь в курсе всех выгодных акций, новинок, и крутых подарков
+					</p>
+
+					<input type="email" class="mailing__email" id="email" name="email" placeholder="Ваш e-mail">
+
+					<button class="mailing__button">
+						Подписаться
+					</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="reviews js__reviews">
+			<div class="container reviews__container js__reviews">
+				<div class="reviews__head">
+					<svg class="advantages__thumb">
+ 						<use xlink:href="img/sprite.svg#icon-flowers"></use>
+					</svg>
+					<h2 class="advantages__title">
+						Наши отзывы
+					</h2>
+				</div>
+
+				<div class="window-module" id="popup">
+					<div class="window__content">
+						<svg class="window__close js-window__close">
+ 							<use xlink:href="img/sprite.svg#icon-close"></use>
+						</svg>
+
+						<h2 class="window__title">
+							Обратная Связь
+						</h2>
+
+						<form action="" method="get" class="window__form" id="form">
+							<input type="text" id="name" class="window__name" name="name" placeholder="Ваше Имя">
+
+							<input type="tel" id="tel" class="window__name" name="tel" placeholder="Телефон">
+
+							<textarea name="text" form="form" id="text" class="window__text" placeholder="Ваше Сообщение"></textarea>
+
+							<input type="submit" id="submit" class="window__button">
+						</form>
+					</div>
+				</div>
+			
+						<!-- Reviews Slider Here -->
+				<div class="reviews__list js-reviews__list">
+				
+				<div class="reviews__item">
+					<div class="reviews__wrapper">	
+						<div class="reviews__rating">
+							<svg class="reviews__sprite">
+ 							<use xlink:href="img/sprite.svg#icon-rating"></use>
+							</svg>
+							
+							<svg class="reviews__sprite">
+ 							<use xlink:href="img/sprite.svg#icon-rating"></use>
+							</svg>
+						
+						
+							<svg class="reviews__sprite">
+ 							<use xlink:href="img/sprite.svg#icon-rating"></use>
+							</svg>
+						
+						
+							<svg class="reviews__sprite">
+ 							<use xlink:href="img/sprite.svg#icon-rating"></use>
+							</svg>
+						
+							<svg class="reviews__sprite reviews__none">
+ 							<use xlink:href="img/sprite.svg#icon-rating"></use>
+							</svg>
+						</div>
+
+						<div class="reviews__developer">
+							<span class="reviews__name">
+								Александр
+							</span>
+							<span class="reviews__date">
+								21.01.2019
+							</span>
+						</div>
+					</div>
+
+						<div class="reviews__feedback">
+
+						<div class="reviews__pictures">	
+							<svg class="reviews__image">
+ 							<use xlink:href="img/sprite.svg#icon-avatar"></use>
+							</svg>
+						</div>
+
+						<p class="reviews__textarea">
+							Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь. Если вам нужен Lorem Ipsum для серьёзного проекта, вы наверняка не хотите какой-нибудь шутки, скрытой в середине абзаца. 
+						</p>
+						
+						</div>
+					</div>
+
+					<div class="reviews__item">
+					<div class="reviews__wrapper">	
+						<div class="reviews__rating">
+							<svg class="reviews__sprite">
+ 							<use xlink:href="img/sprite.svg#icon-rating"></use>
+							</svg>
+							<svg class="reviews__sprite reviews__none">
+ 							<use xlink:href="img/sprite.svg#icon-rating"></use>
+							</svg>
+							<svg class="reviews__sprite reviews__none">
+ 							<use xlink:href="img/sprite.svg#icon-rating"></use>
+							</svg>
+							<svg class="reviews__sprite reviews__none">
+ 							<use xlink:href="img/sprite.svg#icon-rating"></use>
+							</svg>
+							<svg class="reviews__sprite reviews__none">
+ 							<use xlink:href="img/sprite.svg#icon-rating"></use>
+							</svg>
+						</div>
+
+						<div class="reviews__developer">
+							<span class="reviews__name">
+								Замир и Иван
+							</span>
+							<span class="reviews__date">
+								14.03.2019
+							</span>
+						</div>
+					</div>
+
+						<div class="reviews__feedback">
+
+						<div class="reviews__pictures">	
+							<svg class="reviews__image">
+ 							<use xlink:href="img/sprite.svg#icon-avatar"></use>
+							</svg>
+						</div>
+
+						<p class="reviews__textarea">
+							Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь. Если вам нужен Lorem Ipsum для серьёзного проекта, вы наверняка не хотите какой-нибудь шутки, скрытой в середине абзаца. 
+						</p>
+						
+						</div>
+					</div>
+				</div>
+
+			<div class="reviews__bottom">
+				<a href="#" class="reviews__excerpt">
+				Смотреть все отзывы
+				</a>
+
+				<button class="reviews__link" id="window__button">
+					Написать отзыв
+				</button>
+			</div>
+
+			</div>
+		</section>
+
+		<section class="information">
+			<div class="container information__container">
+				
+			<div class="information__text">
+				<span class="information__title">
+					Доставка цветов в Москве
+				</span>
+				
+				<p class="information__description">
+					Доставка цветов считается самым популярным сервисом в этой сфере. Красивые букеты, удивительные флористические композиции и приятные презенты ежедневно радуют заказчиков и их адресатов. Наши опытные флористы постоянно находятся в поиске самых неожиданных решений, которые позволят сделать поистине неповторимые произведения.
+				</p>
+				
+				<span class="information__desc">
+					Преимущества доставки букетов:
+				</span>
+				<p class="information__description">
+					Удаленность. Сегодня уже ни для кого не секрет, что гораздо проще выбирать и заказывать товары и услуги через интернет. В последние годы рынок этих услуг активно совершенствовался, и, по мнению большинства, этот тип покупок наиболее быстрый, удобный и качественный. С помощью него можно сэкономить массу времени на походы по магазинам и поиски подходящего букета. Достаточно просто зайти на сайт интернет-магазина, выбрать понравившуюся композицию или посоветоваться по телефону с менеджером и нажать одну кнопку.
+				</p>
+
+				<p class="information__description">
+					Выбор. Именно через интернет можно найти самые подходящие варианты – нужные цветы, их расцветки, высоту, количество. Интересные композиции – нежные и страстные, маленькие и большие, в упаковках и целлофане – это лишь немногое из того, что можно найти в интернет-магазине.
+				</p>
+
+				<p class="information__description">
+					Специальный транспорт. Если вы сделали заказ цветов с доставкой, можете не беспокоиться, что подарок повредится или помнется в дороге. Эти хрупкие и нежные презенты перевозят только в специально оборудованных автомобилях.
+				</p>
+			</div>
+
+			<div class="information__text">
+				<p class="information__desc">
+					Стоимость и особенности покупки букета
+				</p>
+
+				<p class="information__description">
+					В нашем интернет-магазине мы предлагаем заказать самые необычные и прекрасные флористические композиции от 2500 рублей. Если заказ очень срочный, осуществляется недорогая доставка цветов, как правило в течении 2-3 часов. Бесплатно презент привезут на указанный адрес, если его забронировали заранее.
+				</p>
+
+				<p class="information__description">
+					Круглые сутки. Большинство цветочных магазинов, в которых вы можете подобрать букет, работают не круглые сутки. Именно поэтому порадовать любимого или близкого человека в любое время суток можно только вместе с Flora Delivery.
+				</p>
+
+				<p class="information__description">
+					Анонимный букет. Многие мужчины зачастую не могут решиться сделать первый шаг или просто хотят вызвать в возлюбленной ответные чувства. Поэтому уникальная услуга - доставка цветов от мистера «Инкогнито» позволяет сохранить таинственность, заставить женщину пребывать в романтических грезах о прекрасном принце и просто сделать приятное любимому человеку.
+				</p>
+
+				<p class="information__description">
+					Консультации. Уместность той или иной композиции в данном конкретном случае, количество цветов, их расцветки, необходимые элементы декора можно обсудить с квалифицированными флористами.<br>
+					Время года. Виртуальные магазины флористики не зависят от времени года и климатических условий. Здесь всегда можно найти и купить любые цветы!
+				</p>
+			</div>
+
+			</div>
+		</section>
+			
+			<!-- GOOGLE MAPS API -->
+
+		<div class="maps__wrapper">
+			<div class="maps" id="map">
+			
+			</div>
+			
+			<div class="maps__contact">
+				<h3 class="maps__title">
+					Контакты
+				</h3>
+
+				<span class="maps__desc">
+					Связь с нами
+				</span>
+
+				<ul class="maps__list">
+					<li class="maps__item">
+						<span class="maps__head">
+							Телефон
+						</span>
+
+						<a href="tel:+88007589878">
+						<span class="maps__bottom">
+							8 800 758 98 78
+						</span>
+						</a>
+					</li>
+					<li class="maps__item">
+						<span class="maps__head">
+							Адрес
+						</span>
+
+						<span class="maps__bottom">
+							г. Сургут, ул. Ленина, 21
+						</span>
+					</li>
+					<li class="maps__item">
+						<span class="maps__head">
+							Почта
+						</span>
+
+						<span class="maps__bottom">
+							info@florist86.ru
+						</span>
+					</li>
+					<li class="maps__item">
+						<span class="maps__head">
+							Соц. сети
+						</span>
+
+						<ul class="social-list">
+							<li class="social-item">
+							<a href="#" class="social-link">
+								<svg class="social-sprite">
+ 									<use xlink:href="img/sprite.svg#icon-vk"></use>
+								</svg>
+							</a>
+							</li>
+							<li class="social-item">
+								<a href="#" class="social-link">
+								<svg class="social-sprite">
+ 									<use xlink:href="img/sprite.svg#icon-facebook"></use>
+								</svg>
+							</a>
+							</li>
+							<li class="social-item">
+								<a href="#" class="social-link">
+								<svg class="social-sprite">
+ 									<use xlink:href="img/sprite.svg#icon-twitter"></use>
+								</svg>
+							</a>
+							</li>
+							<li class="social-item">
+								<a href="#" class="social-link">
+								<svg class="social-sprite">
+ 									<use xlink:href="img/sprite.svg#icon-inst"></use>
+								</svg>
+							</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+
+				<button class="maps__button">
+					Написать нам
+				</button>
+			
+			</div>
+		</div>
+
 	</main>
 
 	<footer class="page-footer">
-		<div class="page-footer__wrapper">
+		<div class="container page-footer__container">
+			<div class="copyright">
+				<p class="copyright__desc">
+					Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации
+				</p>
+
+				<a href="#" class="copyright__link">
+					© 2017 Florist
+				</a>
+			</div>
+
+			<ul class="page-footer__list">
+				<li class="page-footer__item"><a href="#" class="page-footer__link">Каталог</a></li>
+				<li class="page-footer__item"><a href="#" class="page-footer__link">Подарки</a></li>
+				<li class="page-footer__item"><a href="#" class="page-footer__link">Коробки</a></li>
+			</ul>
+
+			<ul class="page-footer__list">
+				<li class="page-footer__item"><a href="#" class="page-footer__link">Доставка</a></li>
+				<li class="page-footer__item"><a href="#" class="page-footer__link">Оплата</a></li>
+				<li class="page-footer__item"><a href="#" class="page-footer__link">Контакты</a></li>
+			</ul>
 			
+			<div class="social-block">
+				<span class="social-text">Мы в Соц. Сетях</span>
+				<ul class="social-list footer-social__list">
+							<li class="social-item">
+						<a href="#" class="social-link">
+							<svg class="social-sprite footer-sprite">
+ 								<use xlink:href="img/sprite.svg#icon-vk"></use>
+							</svg>
+						</a>
+							</li>
+							<li class="social-item">
+						<a href="#" class="social-link">
+							<svg class="social-sprite footer-sprite">
+ 								<use xlink:href="img/sprite.svg#icon-facebook"></use>
+							</svg>
+						</a>
+							</li>
+							<li class="social-item">
+						<a href="#" class="social-link">
+							<svg class="social-sprite footer-sprite">
+ 								<use xlink:href="img/sprite.svg#icon-twitter"></use>
+							</svg>
+						</a>
+							</li>
+							<li class="social-item">
+						<a href="#" class="social-link">
+							<svg class="social-sprite footer-sprite">
+ 								<use xlink:href="img/sprite.svg#icon-inst"></use>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="social-block">
+				<span class="social-text">Способы Оплаты</span>
+				<ul class="social-list footer-social__list">
+							<li class="social-item">
+						<a href="#" class="social-link">
+							<svg class="social-sprite footer-sprite">
+ 								<use xlink:href="img/sprite.svg#icon-vk"></use>
+							</svg>
+						</a>
+							</li>
+							<li class="social-item">
+						<a href="#" class="social-link">
+							<svg class="social-sprite footer-sprite">
+ 								<use xlink:href="img/sprite.svg#icon-facebook"></use>
+							</svg>
+						</a>
+							</li>
+							<li class="social-item">
+						<a href="#" class="social-link">
+							<svg class="social-sprite footer-sprite">
+ 								<use xlink:href="img/sprite.svg#icon-twitter"></use>
+							</svg>
+						</a>
+							</li>
+							<li class="social-item">
+						<a href="#" class="social-link">
+							<svg class="social-sprite footer-sprite">
+ 								<use xlink:href="img/sprite.svg#icon-inst"></use>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+
 		</div>
 	</footer>
 
   </div>
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-	<script src="slick/slick.min.js"></script>
+	<!-- Jquery -->
+		
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+	<!-- Plugins -->
+
+	<script src="plugins/slick/slider.js"></script>
+	<script src="plugins/slick/slick.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+	
+	<!-- Java Script -->
+ 	
  	<script src="js/main.js"></script>
+
+	<!-- Google Maps Api -->
+
+ 	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvA60aARAdzhWxbWmZqeXdZG3GZvmpZdI&amp&callback=initMap">
+    </script>
 </body>
 </html>

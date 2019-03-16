@@ -1,28 +1,87 @@
 .banner {
 	background-color: #f5f5f5;
+	
+}
+
+.banner__wrapper {
+	position: relative;
+	overflow: hidden;
+}
+
+.parallax {
+	position: absolute;
+	z-index: 2;
+
+	right: 0;
+	bottom: 0;
+
+	line-height: 0;
+}
+
+.parallax__item1 {
+	height: 590px;
+	transform: translateX(300px);
+}
+
+.parallax__item2 {
+	height: 595px;
+	transform: translateY(40px);
+}
+
+.parallax__item3 {
+	margin-top: 30px;
+	transform: translateX(30px);
+}
+
+@media (min-width: 1440px) {
+	.parallax__item1 {
+		transform: translateX(200px);
+		margin-top: 30px;
+	}
+
+	.parallax__item2 {
+		transform: translateY(120px);
+	}
+
+	.parallax__item3 {
+		margin-top: 25px;
+		transform: translateX(50px);
+	}
+}
+
+@media (min-width: 1600px) {
+	.parallax__item1 {
+		transform: translateX(-25px);
+	}
+
+	.parallax__item2 {
+		transform: translateY(30px);
+	}
+
+	.parallax__item3 {
+		margin-top: 60px;
+		transform: translateX(0px);
+	}
 }
 
 .banner__container {
 	position: relative;
-}
 
-.banner__pictures {
-	position: absolute;
+	background-image: url('../img/flowers_buker.jpg');
+	background-repeat: no-repeat;
+	background-position: 382px 51px;
 
-	bottom: 0;
-	right: 0;
-	
-
-	width: 587px;
-	height: auto;
+	z-index: 1;
 }
 
 .banner__title {
+	position: relative;
+	z-index: 55;
+
 	padding-top: 171px;
 }
 
 .banner__heading {
-	
 	font-size: 34px;
 	line-height: 1.2;
 	font-weight: 900;

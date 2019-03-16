@@ -2,10 +2,10 @@
 	font-family: "AbrilTitlingSBit";
     src: 
     url("../fonts/AbrilTitlingWSemiBoldIt/AbrilTitlingW01SemiBoldIt.eot"),
-    url("../fonts/AbrilTitlingWSemiBoldIt/AbrilTitlingW01SemiBoldIt.eot?#iefix"),
+    url("../fonts/AbrilTitlingWSemiBoldIt/AbrilTitlingW01SemiBoldIt.eot?#iefix") format('embedded-opentype'),
     url("../fonts/AbrilTitlingWSemiBoldIt/AbrilTitlingW01SemiBoldIt.woff2"),
-    url("../fonts/AbrilTitlingWSemiBoldIt/AbrilTitlingW01SemiBoldIt.woff"),
-    url("../fonts/AbrilTitlingWSemiBoldIt/AbrilTitlingW01SemiBoldIt.ttf");
+    url("../fonts/AbrilTitlingWSemiBoldIt/AbrilTitlingW01SemiBoldIt.woff") format('woff')
+    url("../fonts/AbrilTitlingWSemiBoldIt/AbrilTitlingW01SemiBoldIt.ttf") format('truetype'),
 
 	font-style: italic;
 	font-weight: 600;

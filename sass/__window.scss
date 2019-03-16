@@ -1,0 +1,151 @@
+.window-module {
+	transform: translateX(-3000px);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	transition: all 0.30s;
+	transition-timing-function: ease-in;
+
+	z-index: 10000;
+
+}
+
+.window__content {
+	
+	display: flex;
+	flex-direction: column;
+
+	background-color: $col-white;
+	box-shadow: 0 0 87px rgba(0, 0, 0, 0.2);
+
+	width: 840px;
+	height: 520px;
+	
+	margin: 0 auto;
+}
+
+.window__close {
+	display: block;
+	width: 19px;
+	height: 19px;
+	fill: $col_black;
+
+	align-self: flex-end;
+
+	margin: 20px 20px 0 0;
+
+	cursor: pointer;
+
+	&:hover {
+		fill: #d0d0d0;
+	}
+}
+
+.window__title {
+	position: relative;
+
+	color: $col-black;
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	text-transform: uppercase;
+
+	margin: 0 auto;
+	margin-top: 42px;
+
+	&:after {
+		content: '';
+		position: absolute;
+		display: block;
+		width: 40px;
+		height: 3px;
+		background-color: $col-black;
+		border-bottom: 2px solid $col-black;
+
+		transform: translateX(150%);
+		margin-top: 10px;
+	}
+}
+
+.window__form {
+	margin: 0 auto;
+}
+
+.window__name {
+	width: 280px;
+	height: 52px;
+	background-color: #f7f7f7;
+
+	color: #fff;
+	font-family: "Open Sans", sans-serif;
+	font-size: 12px;
+	font-weight: 800;
+	
+	border: none;
+	outline: none;
+
+	display: inline-block;
+	margin-left: 16px;
+	margin-top: 30px;
+
+	&:first-child {
+		margin-left: 0px;
+	}
+}
+
+.window__name[placeholder] {
+	padding-left: 20px;
+	color: #000;
+
+	text-transform: uppercase;
+}
+
+.window__text {
+	display: block;
+	min-width: 580px;
+	min-height: 158px;
+	background-color: #f7f7f7;
+
+	margin-top: 20px;
+
+	border: none;
+	outline: none;
+	resize: none;
+}
+
+.window__text[placeholder] {
+	padding-left: 20px;
+	padding-top: 22px;
+
+	color: #000;
+	font-family: "Open Sans", sans-serif;
+	font-size: 12px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.window__button {
+	display: block;
+
+	color: $col-white;
+	font-family: "Open Sans", sans-serif;
+	font-size: 12px;
+	font-weight: 800;
+	line-height: 48px;
+	color: $col_white;
+	
+	border: 2px solid $col-black;
+	background-color: $col-black;
+	
+	margin: 0 auto;
+	padding-left: 255px;
+	padding-right: 251px;
+	margin-top: 20px;
+	
+	cursor: pointer;
+	border: none;
+	outline: none;
+	text-transform: uppercase;
+}

@@ -1,0 +1,37 @@
+.information {
+	background-color: #f9f9f9;
+}
+
+.information__container {
+	display: flex;
+	justify-content: space-between;
+
+	padding-top: 59px;
+	padding-bottom: 48px;
+}
+
+.information__title {
+	display: block;
+
+	color: $col-grey;
+	font-size: 14px;
+	font-weight: 400;
+
+	margin-bottom: 6px;
+}
+
+.information__description {
+	width: 530px;
+	color: #6f6969;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 18px;
+
+	margin-bottom: 25px;
+}
+
+.information__desc {
+	color: #6f6969;
+	font-size: 14px;
+	font-weight: 300;
+}

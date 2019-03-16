@@ -1,0 +1,96 @@
+.mailing {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+
+	transform: translateY(-130px);
+
+	width: 95%;
+	height: 277px;
+	box-shadow: 0 0 27px rgba(0, 0, 0, 0.29);
+	border-radius: 4px;
+	border: 1px solid $col-dark-purple;
+	background-color: $col-black;
+	background-image: linear-gradient(73deg, rgba(96, 49, 139, 0.88) 0%, rgba(160, 102, 213, 0.88) 100%);
+
+}
+
+.mailing__container {
+	display: flex;
+
+	position: relative;
+
+}
+
+.mailing__pictures {
+	display: block;
+	width: 327px;
+	height: 301px;
+
+	transform: translateY(-55px);
+
+	margin-left: 43px;
+}
+
+.mailing__form {
+	margin-top: 71px;
+	margin-left: 158px;
+}
+
+.mailing__label {
+	color: $col-white;
+	font-size: 22px;
+	font-weight: 700;
+
+	cursor: pointer;
+}
+
+.mailing__description {
+	width: 336px;
+	color: $col-white;
+	font-size: 16px;
+	font-weight: 400;
+
+	margin-top: 11px;
+}
+
+.mailing__email {
+	width: 334px;
+	height: 44px;
+	border-radius: 22px;
+	border: 1px solid #9e7dbe;
+	background-color: #7e4eaa;
+	color: $col_white;
+	
+	outline: none;
+
+	margin-top: 25px;
+}
+
+.mailing__email[placeholder] {
+	text-overflow: ellipsis;
+	padding-left: 23px;
+	
+	background-color: transparent;
+	color: $col_white;
+	font-family: $fonts-stock;
+	font-size: 13px;
+	font-weight: 300;
+}
+
+.mailing__button {
+	color: #582f7f;
+	font-family: $fonts-stock;
+	font-size: 13px;
+	font-weight: 400;
+
+	padding: 15px 30px 15px 30px;
+
+	border-radius: 22px;
+	border: 1px solid $col-white;
+	background-color: $col-white;
+
+	transform: translateX(-110px);
+}
