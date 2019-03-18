@@ -206,13 +206,18 @@
 	}
 
 	.product__list {
+		align-items: center;
 		margin: 0;
 
 		margin-top: 20px;
 	}
 
+	.product__item {
+		margin: 15px auto;
+	}
+
 	.product__bottom {
-		margin-top: 10px;
+		margin-top: 15px;
 	}
 
 	// Nav-bar Section
@@ -290,7 +295,291 @@
 		margin-top: 45px;
 	}
 
-	.page-footer {
+	// M Advantages Section 
+
+	.advantages {
+		padding-bottom: 30px;
+	}
+
+	.advantages__head {
+		padding-top: 40px;
+	}
+
+	.advantages__list {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.advantages__item {
+		margin: 0;
+		margin-bottom: 35px;
+	}
+
+	.advantages__sprite {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.advantages__lead {
+		text-align: center;
+	}
+
+	.advantages__description {
+		text-align: center;
+	}
+
+	// M Mailing Section
+
+	.mailing {
+		position: static;
+		width: 100%;
+		height: auto;
+
+		transform: translateY(0);
+	}
+
+	.mailing__container {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.mailing__pictures {
+		width: 100%;
+		transform: translateY(0);
+		height: auto;
+		margin: 0 auto;
+		margin-top: 15px;
+	}
+
+	.mailing__form {
+		margin: 0;
+		margin-top: 30px;
+	}
+
+	.mailing__label {
+		
+		display: block;
+		text-align: center;
+
+		font-size: 24px;
+	}
+
+	.mailing__description {
+		margin: 0 auto;
+		margin-top: 10px;
+		width: 300px;
+		text-align: center;
+		font-size: 15px;
+	}
+
+	.mailing__email {
+		width: 100%;
+	}
+
+	.mailing__button {
+		display: block;
+		transform: translateX(0);
+
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding: 15px 50px;
+	}
+
+	// M Reviews Section 
+
+	.reviews {
+		margin-top: 50px;
+		margin-bottom: 40px;
+	}
+	
+	.reviews__wrapper {
+		justify-content: space-between;
+
+		margin-top: 30px;
+	}
+
+	.reviews__developer {
+		margin: 0;
+	}
+
+	.reviews__rating {
+		margin: 0;
+	}
+
+	.reviews__pictures {
+		margin: 0 auto;
+		transform: translateY(0);
+		margin-top: 15px;
+	}
+
+	.reviews__feedback {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: auto;
+
+		margin-top: 10px;
+	}
+
+	.reviews__textarea {
+		width: auto;
+		text-align: center;
+	}
+
+	.reviews__bottom {
+		display: flex;
+		flex-direction: column;
+		margin: 15px auto;
+	}
+
+	.reviews__excerpt {
+		order: 4;
+
+		margin-top: 15px;
+	}
+
+	.reviews__link {
+		order: 3;
+		margin-top: 10px;
+
+		padding: 13px 40px;
+	}
+
+	// M Window Section (popup)
+
+	.window__title {
+		margin-top: 30px;
+	}
+
+	.window__content {
+		width: 100%;
+		height: auto;
+	}
+
+	.window__form {
+		display: flex;
+		flex-direction: column;
+
+		margin-top: 30px;
+		width: 95%;
+	}
+
+	.window__name {
+		width: 100%;
+		margin: 5px 0;
+	}
+
+	.window__text {
+		min-width: auto;
+	}
+
+	.window__button {
+		display: block;
+		padding-left: 100px;
+		padding-right: 100px;
+
+		margin-bottom: 25px;
+	}
+
+	// M Information Section 
+
+	.information__container {
+		flex-direction: column;
+	}
+
+	.information__title {
+		font-size: 24px;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	.information__desc {
+		display: block;
+		font-size: 20px;
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+
+	.information__description {
+		text-align: center;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	// M Section Google Maps 
+
+	.maps__contact {
 		display: none;
+	}
+	
+	// M Page Footer Section 
+
+	.page-footer {
+		margin: 0;
+	}
+
+	.page-footer__container {
+		flex-direction: column;
+	}
+
+	.copyright {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 50px 0 20px 0;
+		order: 6;
+	}
+
+	.copyright__desc {
+		text-align: center;
+	}
+
+	.page-footer__list--wrapper {
+		display: flex;
+		justify-content: space-around;
+
+		margin-top: 30px;
+	}
+
+	.page-footer__item {
+		margin-left: 5px;
+
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+
+	.page-footer__list {
+		display: flex;
+		margin-top: 0;
+		margin-left: 0;
+	}
+
+	.social-block__wrapper {
+		display: flex;
+		justify-content: space-around;
+
+		margin-top: 30px;
+	}
+
+	.social-text {
+		display: block;
+		margin-left: 5px;
+	}
+
+	.footer-social__list {
+		margin-top: 10px;
+	}
+
+	.social-block {
+		margin-left: 0;
+		margin-top: 0;
+	}
+
+	.social-block {
+		order: 5;
 	}
 }

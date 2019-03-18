@@ -24,6 +24,16 @@ $(function(){
 	centerPadding: '0',
 	slidesToShow: 1,
 	prevArrow: '<img class="slick-arrow slick-prev" src="./img/icon-arrow-reviews.svg" style="width: 42px; height: 42px; z-index: 9999; transform: scale(-1, -1);">',
-  	nextArrow: '<img class="slick-arrow slick-next" src="./img/icon-arrow-reviews.svg" style="width: 42px; height: 42px; z-index: 9999; transform: scale(1, 1);">'
- })
+  	nextArrow: '<img class="slick-arrow slick-next" src="./img/icon-arrow-reviews.svg" style="width: 42px; height: 42px; z-index: 9999; transform: scale(1, 1);">',
+  	responsive: [
+	{
+	 breakpoint: 640,
+	 settings: {
+	 	dots: true,
+	 	arrows: false,
+	 	slidesToShow: 1
+	 }
+	}
+	]
+ });
 });﻿
