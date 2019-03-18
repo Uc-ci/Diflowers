@@ -98,9 +98,9 @@
 .page-header__navigation-list {
 	display: flex;
 	width: 100%;
-	padding: 18px 0 15px 0;
 
-	transition: all 0.3s;
+	padding: 18px 0 15px 0;
+	transition: all 1s ease;
 }
 
 .page-header__navigation-item {
@@ -168,20 +168,22 @@
 	
 	max-width: 100%;
 	width: 100%;
-	padding: 18px 0 15px 0;
+	
+	padding: 20px 0 20px 0;
+
 	left: 0;
 	right: 0;
-	justify-content: space-around;
 
-	padding-left: 19.6%;
-	padding-right: 20%;
+	justify-content: center;
+	
 
-	transition: 0.80s;
-	transition-timing-function: ease;
+	margin: 0 auto;
+
+	transition: all 0.5s ease;
 	
 	background-color: $col-white;
 	box-shadow: 0 0 16px rgba(0, 0, 0, 0.06);
-	z-index: 10001;
+	z-index: 100000;
 }
 
 

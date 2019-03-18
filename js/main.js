@@ -39,7 +39,7 @@ var parallaxInstance = new Parallax(scene);
 
 // Sticky Header Navigation 
 
-  $(window).on('scroll', function(){
+   $(window).on('scroll', function(){
     if ($(window).scrollTop()){
         $('.js-navigaition').addClass('sticky');
     }
