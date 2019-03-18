@@ -118,6 +118,17 @@
 		}
 	}
 
+	.sticky {
+		position: fixed;
+		top: 0;
+		
+		max-width: 100%;
+		width: 100%;
+		
+		justify-content: flex-start;
+		padding-left: 5px;
+	}
+
 	.nav-item-basket {
 		display: inline-block;
 		transform: translateX(-45px);
@@ -135,6 +146,7 @@
 
 	.container {
 		max-width: none;
+		overflow-y: hidden;
 	}
 
 	// Banner Section
@@ -289,6 +301,11 @@
 	.stock__container {
 		margin-top: 40px;
 		margin-bottom: 50px;
+	}
+
+	.slick-center {
+		transform: none;
+		overflow-y: hidden;
 	}
 
 	.stock__wrap {
@@ -539,6 +556,8 @@
 
 	.page-footer__list--wrapper {
 		display: flex;
+		flex-direction: column;
+		align-items: center;
 		justify-content: space-around;
 
 		margin-top: 30px;
