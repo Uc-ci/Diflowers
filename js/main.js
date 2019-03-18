@@ -72,3 +72,18 @@ var parallaxInstance = new Parallax(scene);
         };
       };
 
+// Mobile Menu
+
+  let 
+    menu = document.getElementById('information-menu'),
+    menuOpen = document.querySelector('.js-icon-hambuger'),
+    menuClose = document.querySelector('.js-inforamtion-close');
+
+    menuOpen.onclick = function() {
+      menu.style.right="0";
+    };
+
+    menuClose.onclick = function() {
+      menu.style.right="-100%";
+    };  
+

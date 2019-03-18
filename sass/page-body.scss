@@ -22,10 +22,18 @@ button {
 	cursor: pointer;
 }
 
+// Block In Mobile Version 
+
+.icon-hamburger,
+.page-header__information-close {
+	display: none;
+}
+
 .page-html {
   box-sizing: border-box;
   height: 100%;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }

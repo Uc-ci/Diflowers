@@ -2,8 +2,38 @@
 	
 	// M Header Section 
 
-	.page-header {
-		display: inline-block;
+	// M-MENU 
+
+	.sprite-hamburger {
+		display: block;
+		width: 25px;
+		height: 25px;
+
+		fill: $col_purple;
+	}
+
+	.icon-hamburger {
+		display: block;
+		margin-top: 13px;
+	}
+
+	.page-header__information-close {
+		display: block;
+		width: 18px;
+		height: 18px;
+
+		fill: $col-white;
+
+		position: absolute;
+
+		top: 25px;
+		right: 25px;
+		
+		transition: 0.45s;
+		&:hover,
+		&:active {
+			fill: $col_grey;
+		}
 	}
 
 	.container-header {
@@ -12,36 +42,30 @@
 
 	.page-header__image {
 		display: flex;
+		align-items: center;
 		order: 2;
 
-		max-width: 70%;
-		display: block;
+		max-width: 100%;
 		margin:  0 auto;
 	}
 
 	.page-header__pictures {
 		display: block;
-		margin: 0 auto;
-
-		transform: translateX(10px);
+		width: 80%;
 	}
 
 	.page-header__pictures-network {
-		margin: 0 auto;
-		width: 70%;
-
-		padding-top: 5px;
+		display: none;
 	}
 
 	.page-header__information-list {
-		display: none;
-
-		position: absolute;
+		position: fixed;
 		top: 0;
-		z-index: 1;
+		right: -100%;
+		z-index: 555;
 
 		flex-direction: column;
-		justify-content: center;
+		
 		align-items: center;
 
 		order: 1;
@@ -49,6 +73,7 @@
 		height: 100vh;
 		width: 100%;
 
+		transition: 0.7s;
 		background-color: $col_grey; 
 		background-image: linear-gradient(73deg, rgba(96, 49, 139, 0.88) 0%, rgba(160, 102, 213, 0.88) 100%);
 	}
@@ -74,13 +99,17 @@
 	}
 
 	.page-header__information-item {
+		display: block;
 		padding: 0;
-		margin-bottom: 70px;
+		margin-top: 95px;
 
-		&:first-child {
-			margin-top: 75px;
 		
-		&:before { 
+		&:first-child {
+			margin-top: 50px; 
+		}
+	}
+
+	.page-header__information-item:before { 
 		content: ''; 
 		display: block;
 		margin: 0 auto;
@@ -95,8 +124,6 @@
 
 		border-radius: 1px; 
 		border-bottom: 2px solid #d8d0e4; 
-		}
-	}
 	}
 
 	.page-header__information {
@@ -113,6 +140,8 @@
 		display: flex;
 		align-items: center;
 
+		margin-left: 14.5px;
+
 		&:last-child {
 		margin-left: 65px;
 		}
@@ -123,10 +152,15 @@
 		top: 0;
 		
 		max-width: 100%;
-		width: 100%;
-		
+		width: 95%;
+
 		justify-content: flex-start;
-		padding-left: 5px;
+		
+		transition: all 0s ease;
+	}
+
+	.page-header__navigation-link {
+		transition: ‎all 0s ease;
 	}
 
 	.nav-item-basket {
@@ -151,8 +185,13 @@
 
 	// Banner Section
 
+	.page-main {
+		border-top: 1px solid #edebf0;
+	}
+
 	.banner__container {
 		z-index: auto;
+		overflow-x: hidden;
 	}
 
 	.parallax {
