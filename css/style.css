@@ -1676,7 +1676,8 @@ button {
     font-size: 14px;
     color: #ffffff;
     font-weight: 700;
-    white-space: nowrap; }
+    white-space: nowrap;
+    text-align: center; }
   .page-header__navigation-list {
     overflow: scroll;
     -webkit-transition: all .55s;
