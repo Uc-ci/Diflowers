@@ -5,13 +5,25 @@ $(function(){
 	centerMode: true,
 	centerPadding: '0',
 	slidesToShow: 3,
+	slidesToScroll: 3,
 	responsive: [
 	{
-	 breakpoint: 640,
+	 breakpoint: 600,
 	 settings: {
 	 	dots: true,
 	 	arrows: false,
 	 	slidesToShow: 1
+	 }
+	},
+
+	{
+	 breakpoint: 1024,
+	 settings: {
+	 	dots: true,
+	 	arrows: false,
+	 	slidesToShow: 2,
+	 	centerMode: true,
+	 	variableWidth: true
 	 }
 	}
 	]
@@ -29,6 +41,14 @@ $(function(){
   	responsive: [
 	{
 	 breakpoint: 640,
+	 settings: {
+	 	dots: true,
+	 	arrows: false,
+	 	slidesToShow: 1
+	 }
+	},
+	{
+	 breakpoint: 1024,
 	 settings: {
 	 	dots: true,
 	 	arrows: false,

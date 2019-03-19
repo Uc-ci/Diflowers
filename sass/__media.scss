@@ -51,7 +51,7 @@
 
 	.page-header__pictures {
 		display: block;
-		width: 80%;
+		width: 60%;
 	}
 
 	.page-header__pictures-network {
@@ -62,7 +62,7 @@
 		position: fixed;
 		top: 0;
 		right: -100%;
-		z-index: 555;
+		z-index: 100001;
 
 		flex-direction: column;
 		
@@ -134,6 +134,8 @@
 
 	.page-header__navigation-list {
 		overflow: scroll;
+		transition: all .55s;
+		padding-left: 10px;
 	}
 
 	.page-header__navigation-item {
@@ -143,20 +145,24 @@
 		margin-left: 14.5px;
 
 		&:last-child {
-		margin-left: 65px;
+		margin-left: 20px;
 		}
+	}
+	
+	.nav-item-basket {
+		display: none;
 	}
 
 	.sticky {
 		position: fixed;
 		top: 0;
+
+		z-index: 100003;
 		
 		max-width: 100%;
-		width: 95%;
+		width: 100%;
 
 		justify-content: flex-start;
-		
-		transition: all 0s ease;
 	}
 
 	.page-header__navigation-link {
@@ -164,16 +170,7 @@
 	}
 
 	.nav-item-basket {
-		display: inline-block;
-		transform: translateX(-45px);
-		fill: $col_grey;
-		transition: 0.35s;
-		transition-timing-function: ease-in;
-
-		&:hover,
-		&:active {
-		fill: $col_purple;
-		}
+		display: none;
 	}
 
 	// M Main Section 
@@ -200,7 +197,7 @@
 
 	.parallax__item1 {
 		display: block;
-		transform: translateY(0);
+		transform: translateX(-100%);
 	}
 
 	.parallax__item3 {
@@ -640,4 +637,138 @@
 	.social-block {
 		order: 5;
 	}
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+	
+	// Tablet Header Section
+
+	.page-header__pictures {
+		width: 50%;
+	}
+
+	.sprite-hamburger {
+		width: 35px;
+		height: 35px;
+	}
+
+	.js-navigaition {
+		padding-left: 5px;
+	}
+
+	@media (min-width: 700px) and (max-width: 1200px) {
+		.page-header__navigation-list {
+			justify-content: center;
+		}
+	}
+
+	// Tablet Banner Section
+
+	.parallax__item1 {
+		transform: translateX(-100%);
+	}
+
+	.parallax__item2 {
+		transform: translateY(-3px);
+	}
+
+	.banner__container {
+		background-image: none;
+	}
+
+	.banner__heading {
+		width: 500px;
+		margin: 0 auto;
+		margin-top: 40px;
+	}
+
+	.banner__description {
+		margin-top: 33px;
+	}
+
+	.banner__offers {
+		flex-direction: row;
+		margin-top: 100px;
+		margin-bottom: 0;
+	}
+
+	.offers__block {
+
+		&:first-child {
+			margin-bottom: 0;
+		}
+	}
+
+	// Tablet Nav-Bar Section 
+
+	.nav-bar__wrapper {
+		justify-content: center;
+		align-items: center;
+	}
+
+	.nav-bar__bouquet {
+		width: 550px;
+	}
+
+	.nav-bar__bear {
+		width: 520px;
+	}
+
+	.nav-bar__flowers {
+		width: 490px;
+	}
+
+	.flowers-two {
+		width: 460px;
+		margin: 0 auto;
+	}
+
+	
+	// Tablet Mailing Section 
+
+	.mailing__container {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.mailing__pictures {
+		width: 40%;
+		margin: 0;
+	}
+
+	.mailing__form {
+		margin-top: 50px;
+		margin-bottom: 40px;
+		align-content: center;
+	}
+
+	.mailing__label {
+		margin-top: 10px;
+		font-size: 26px;
+	}
+
+	.mailing__description {
+		font-size: 13px;
+		margin-top: 18px;
+	}
+
+	// Tablet Reviews Section 
+
+	.reviews__bottom {
+		flex-direction: row;
+		margin: 0 5%;
+	}
+
+	// Tablet Pabe Footer Section
+
+	.page-footer__list--wrapper {
+		flex-direction: row;
+	}
+
+	.page-footer__item {
+		margin-left: 40px;
+	}
+
+
+
 }

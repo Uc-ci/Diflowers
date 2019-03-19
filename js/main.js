@@ -39,17 +39,16 @@ var parallaxInstance = new Parallax(scene);
 
 // Sticky Header Navigation 
 
-   $(window).on('scroll', function(){
-    if ($(window).scrollTop()){
-        $('.js-navigaition').addClass('sticky');
-    }
-    else
-    {
-      $('.js-navigaition').removeClass('sticky');
-    }
-})
-
-// Popup feedback
+      $(window).scroll(function() { 
+    var top = $(document).scrollTop(); 
+    if (top < 250) {
+    $(".js-navigaition").removeClass('sticky'); 
+    } else {
+    $(".js-navigaition").addClass('sticky');
+    } 
+    });
+  
+  // Popup feedback
 
   let 
       popup = document.getElementById('popup'),
@@ -85,5 +84,5 @@ var parallaxInstance = new Parallax(scene);
 
     menuClose.onclick = function() {
       menu.style.right="-100%";
-    };  
+    };
 
