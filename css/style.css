@@ -1648,7 +1648,7 @@ button {
     -webkit-transform: translateY(-40px);
         -ms-transform: translateY(-40px);
             transform: translateY(-40px);
-    display: block;
+    display: inline-block;
     margin: 0 auto;
     fill: #ffffff; }
   .page-header__information-item {
@@ -1659,7 +1659,7 @@ button {
       margin-top: 50px; }
   .page-header__information-item:before {
     content: '';
-    display: block;
+    display: inline-block;
     margin: 0 auto;
     position: absolute;
     -webkit-transform: translateY(-40px);
@@ -1673,9 +1673,10 @@ button {
             border-radius: 1px;
     border-bottom: 2px solid #d8d0e4; }
   .page-header__information {
-    font-size: 16px;
+    font-size: 14px;
     color: #ffffff;
-    font-weight: 700; }
+    font-weight: 700;
+    white-space: nowrap; }
   .page-header__navigation-list {
     overflow: scroll;
     -webkit-transition: all .55s;
@@ -1691,6 +1692,7 @@ button {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
+    text-align: center;
     margin-left: 14.5px; }
     .page-header__navigation-item:last-child {
       margin-left: 20px; }

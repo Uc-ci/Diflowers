@@ -92,7 +92,7 @@
 
 		transform: translateY(-40px);
 
-		display: block;
+		display: inline-block;
 		margin: 0 auto;
 
 		fill: $col-white;
@@ -111,7 +111,7 @@
 
 	.page-header__information-item:before { 
 		content: ''; 
-		display: block;
+		display: inline-block;
 		margin: 0 auto;
 		position: absolute; 
 		transform: translateY(-40px); 
@@ -127,9 +127,10 @@
 	}
 
 	.page-header__information {
-		font-size: 16px;
+		font-size: 14px;
 		color: $col_white;
 		font-weight: 700;
+		white-space: nowrap;
 	}
 
 	.page-header__navigation-list {
@@ -141,6 +142,7 @@
 	.page-header__navigation-item {
 		display: flex;
 		align-items: center;
+		text-align: center;
 
 		margin-left: 14.5px;
 
